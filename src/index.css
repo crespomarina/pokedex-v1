@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: lightgray;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* .title-text {
+  color: #F873FE;
+  text-align: center;
+} */
+
+ul {
+  list-style: none;
+}
+
+input[type="text"]:focus {
+  border-color: red;
+  box-shadow: 0 1px 1px red inset, 0 0 8px red;
+  outline: 0 none;
 }
